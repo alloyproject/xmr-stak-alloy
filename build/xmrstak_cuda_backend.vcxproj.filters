@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opt\xmr-stak\xmrstak\backend\nvidia\jconf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opt\xmr-stak\xmrstak\backend\nvidia\minethd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opt\xmr-stak\xmrstak\backend\nvidia\nvcc_code\cuda_core.cu" />
+    <CustomBuild Include="C:\opt\xmr-stak\xmrstak\backend\nvidia\nvcc_code\cuda_extra.cu" />
+    <CustomBuild Include="C:\opt\xmr-stak\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\opt\xmr-stak\build\CMakeFiles\xmrstak_cuda_backend.dir\xmrstak\backend\nvidia\nvcc_code\$(Configuration)\xmrstak_cuda_backend_generated_cuda_core.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\opt\xmr-stak\build\CMakeFiles\xmrstak_cuda_backend.dir\xmrstak\backend\nvidia\nvcc_code\$(Configuration)\xmrstak_cuda_backend_generated_cuda_extra.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C26ECDF1-F766-33EA-B302-83B5E2ADE812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{3629A8E2-D089-31A9-A70B-1817EF099D10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

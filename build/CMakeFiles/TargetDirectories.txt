@@ -1,0 +1,8 @@
+C:/opt/xmr-stak/build/CMakeFiles/INSTALL.dir
+C:/opt/xmr-stak/build/CMakeFiles/xmrstak_opencl_backend.dir
+C:/opt/xmr-stak/build/CMakeFiles/xmr-stak-c.dir
+C:/opt/xmr-stak/build/CMakeFiles/xmr-stak-backend.dir
+C:/opt/xmr-stak/build/CMakeFiles/xmr-stak.dir
+C:/opt/xmr-stak/build/CMakeFiles/xmrstak_cuda_backend.dir
+C:/opt/xmr-stak/build/CMakeFiles/ALL_BUILD.dir
+C:/opt/xmr-stak/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,104 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: C:/opt/xmr-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_06803.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/11/2018 11:26:44 PM.
+Project "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_06803.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_06803.dir\Debug\".
+  Creating directory "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_06803.dir\Debug\cmTC_06803.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_06803.dir\Debug\cmTC_06803.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /I"C:\Program Files (x86)\AMD APP SDK\3.0\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06803.dir\Debug\\" /Fd"cmTC_06803.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\AMD APP SDK\3.0\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06803.dir\Debug\\" /Fd"cmTC_06803.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'CL_VERSION_2_2': undeclared identifier [C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_06803.vcxproj]
+Done Building Project "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_06803.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_06803.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'CL_VERSION_2_2': undeclared identifier [C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_06803.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.19
+
+File C:/opt/xmr-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files (x86)/AMD APP SDK/3.0/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: C:/opt/xmr-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d3901.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/11/2018 11:26:44 PM.
+Project "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_d3901.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d3901.dir\Debug\".
+  Creating directory "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d3901.dir\Debug\cmTC_d3901.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d3901.dir\Debug\cmTC_d3901.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /I"C:\Program Files (x86)\AMD APP SDK\3.0\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3901.dir\Debug\\" /Fd"cmTC_d3901.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\AMD APP SDK\3.0\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3901.dir\Debug\\" /Fd"cmTC_d3901.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'CL_VERSION_2_1': undeclared identifier [C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_d3901.vcxproj]
+Done Building Project "C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_d3901.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_d3901.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'CL_VERSION_2_1': undeclared identifier [C:\opt\xmr-stak\build\CMakeFiles\CMakeTmp\cmTC_d3901.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.22
+
+File C:/opt/xmr-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files (x86)/AMD APP SDK/3.0/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
